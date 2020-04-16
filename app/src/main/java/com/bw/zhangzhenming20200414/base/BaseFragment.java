@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 /**
  * 时间：2020/4/14
  * 作者：张振明
- * 类的作用：
+ * 类的作用：11111
  */
 public abstract class BaseFragment<p extends BasePresenter> extends Fragment implements IBaseView {
     public p presenter;
