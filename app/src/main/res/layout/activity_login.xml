@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="商"
+        android:textColor="#fff"
+        android:textSize="50dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_login"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#C9C6C6"
+        app:tabIndicatorColor="#fff"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#141414" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_login"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="#fff"></androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="八维集团"
+        android:textSize="30dp" />
+</LinearLayout>
